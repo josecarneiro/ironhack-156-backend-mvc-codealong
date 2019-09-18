@@ -1,0 +1,7 @@
+<div>
+  {{#each publications}}
+    <a href="/publication/{{ this._id }}" class="d-block mb-2">
+      {{> publication}}
+    </a>
+  {{/each}}
+</div>
